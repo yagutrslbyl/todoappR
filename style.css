@@ -1,0 +1,56 @@
+input{
+    height: 50px;
+    background-color: bisque;
+    width: 170px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.create{
+    height: 50px;
+    background-color: chocolate;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.read{
+    height: 50px;
+    background-color: chocolate;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.basliq{
+    display: flex;
+    align-items: center;
+}
+
+#list{
+    
+    list-style: decimal;
+
+ }
+ #list li {
+  background: #f2f2f2;  
+  padding: 15px;        
+  margin-bottom: 10px;  
+  border-radius: 8px;    
+  width: 300px;          
+  border: 1px solid #ccc; 
+}
+
+.icons{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
