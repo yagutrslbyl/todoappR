@@ -28,20 +28,6 @@ myBtn.addEventListener('click', ()=>{
             }
 
 
-        // const myLi=document.createElement('li')
-        // myLi.className="item"
-        // myLi.textContent=myInput.value
-        // myUl.append(myLi)
-        // let check=document.createElement('p')
-        // check.textContent='☑️'
-        // let edit=document.createElement('p')
-        // edit.textContent='🖊️'
-        // let del=document.createElement('p')
-        // del.textContent='🗑️'
-        // myLi.append(check, edit, del)
-        // myLi.style.display="flex"
-        // myLi.style.alignItems="center"
-
         let todos=getTodos();
         todos.push(myInput.value)
         localStorage.setItem("todos", JSON.stringify(todos))
